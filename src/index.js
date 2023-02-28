@@ -11,7 +11,7 @@ import App from "./App";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import axios from "axios";
 
-axios.defaults.baseURL = "";
+axios.defaults.baseURL = "https://desplegado-portafolio.onrender.com";
 
 // https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
 const root = ReactDOM.createRoot(document.getElementById("root"));
